@@ -1,4 +1,19 @@
-{% extends 'base.html' %}
-{% block content %}
-    <p> This is {{product_id}} product file.</p>
+{%extends 'base.html' %} {% block content %}
+<p>This is product {{product_id}} page.</p>
+<div>
+  <a type="button" href="{{url_for('donwload_json', product_id = product_id)}}"
+    >JSON</a
+  >
+  <a type="button" href="{{url_for('donwload_csv', product_id = product_id)}}"
+    >CSV</a
+  >
+  <a type="button" href="{{url_for('donwload_xlsx', product_id = product_id)}}"
+    >EXCEL</a
+  >
+</div>
+<a type="button" href="{{url_for('charts', product_id = product_id)}}">Chart</a>
+{{opinions | safe}} {% endblock %} {% block scripts %}
+<script>
+  let table = new DataTable("#opinions", {});
+</script>
 {% endblock %}

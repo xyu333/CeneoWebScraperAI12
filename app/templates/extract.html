@@ -1,27 +1,35 @@
-{% extends 'base.html' %}
-{% block content %}
-    {% if error is defined %}
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong><i class="bi bi-exclamation-diamond-fill"></i>
-        Warning!</strong>{{error}}
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+{%extends 'base.html' %} {% block content %} {% if error is defined%}
+<div class="allert" role="alert">
+  <strong><i></i>Warning!</strong> {{error}}
+  <button type="button" data-bs-dimiss="allert" aria-label="close"></button>
+</div>
+{%endif%}
+<p>This is extract file.</p>
+<h2>Extract opinions</h2>
+<form class="form" method="post" action="{{url_for('extract')}}">
+  <div>
+    <div>
+      <label for="product_id" class="">Product code: </label>
     </div>
-    {% endif %}
-    <h2>Extract opinions</h2>
-        <form class="row g-3" method="POST" action="{{url_for('extract')}}">
-            <div class="row g-3 align-items-center">
-                <div class="col-auto">
-                  <label for="product_id" class="col-form-label">Product code</label>
-                </div>
-                <div class="col-auto">
-                  <input type="text" name="product_id" id="product_id" class="form-control" aria-describedby="product_idHelpInline" placeholder="Enter product code" required>
-                </div>
-                <div class="col-auto">
-                  <span id="product_idHelpInline" class="form-text">Product code must be 5-10 digits long.</span>
-                </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-warning">Extract</button>
-                </div>
-            </div>
-        </form>
+    <div class="">
+      <input
+        type="text"
+        name="product_id"
+        id="product_id"
+        class="formInput"
+        aria-describedby="product_idHelpInline"
+        placeholder="Enter product id:"
+        required
+      />
+      <div>
+        <span id="product_idHelpInline" class="formText"
+          >Product code must be 5-10 digits long</span
+        >
+      </div>
+      <div>
+        <button type="submit">Extract</button>
+      </div>
+    </div>
+  </div>
+</form>
 {% endblock %}

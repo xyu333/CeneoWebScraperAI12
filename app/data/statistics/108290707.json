@@ -1,0 +1,28 @@
+{
+    "product_id": "108290707",
+    "product_name": [
+        "Urządzenie wielofunkcyjne HP DeskJet 3762 AiO Instant Ink (T8X23B)"
+    ],
+    "opinions_count": "46",
+    "pros_count": 23,
+    "cons_count": 8,
+    "average_scorer": 0.839,
+    "score_distribution": {
+        "0.0": NaN,
+        "0.5": NaN,
+        "1.0": 29.0,
+        "1.5": NaN,
+        "2.0": NaN,
+        "2.5": NaN,
+        "3.0": NaN,
+        "3.5": NaN,
+        "4.0": NaN,
+        "4.5": NaN,
+        "5.0": NaN
+    },
+    "recomendation_distribution": {
+        "1.0": 35,
+        "NaN": 6,
+        "0.0": 5
+    }
+}

@@ -1,4 +1,51 @@
-h1{
-    
-    color: darkorange
+html {
+  background-color: #3b3b3b;
+}
+p {
+  color: #d8bfb2;
+}
+.siteTitle {
+  color: #d8bfb2;
+  display: flex;
+  justify-content: center;
+}
+
+span,
+label {
+  color: #d8bfb2;
+}
+
+h2 {
+  color: #d8bfb2;
+}
+
+.listMenu {
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.listMenu li {
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+}
+.listMenu a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.fotterContainer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
 }
