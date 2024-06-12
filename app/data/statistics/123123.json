@@ -1,0 +1,28 @@
+{
+    "product_id": "123123",
+    "product_name": [
+        "TONSIL SOUNDFINDER 250"
+    ],
+    "opinions_count": "2",
+    "pros_count": 0,
+    "cons_count": 0,
+    "average_scorer": 0.533,
+    "score_distribution": {
+        "0.0": NaN,
+        "0.5": NaN,
+        "1.0": 1.0,
+        "1.5": NaN,
+        "2.0": NaN,
+        "2.5": NaN,
+        "3.0": NaN,
+        "3.5": NaN,
+        "4.0": NaN,
+        "4.5": NaN,
+        "5.0": NaN
+    },
+    "recomendation_distribution": {
+        "1.0": NaN,
+        "NaN": NaN,
+        "0.0": NaN
+    }
+}

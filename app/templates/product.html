@@ -1,13 +1,22 @@
 {%extends 'base.html' %} {% block content %}
 <p>This is product {{product_id}} page.</p>
-<div>
-  <a type="button" href="{{url_for('donwload_json', product_id = product_id)}}"
+<div class="Donwload_buttons_container">
+  <a
+    class="Donwload_buttons"
+    type="button"
+    href="{{url_for('donwload_json', product_id = product_id)}}"
     >JSON</a
   >
-  <a type="button" href="{{url_for('donwload_csv', product_id = product_id)}}"
+  <a
+    class="Donwload_buttons"
+    type="button"
+    href="{{url_for('donwload_csv', product_id = product_id)}}"
     >CSV</a
   >
-  <a type="button" href="{{url_for('donwload_xlsx', product_id = product_id)}}"
+  <a
+    class="Donwload_buttons"
+    type="button"
+    href="{{url_for('donwload_xlsx', product_id = product_id)}}"
     >EXCEL</a
   >
 </div>

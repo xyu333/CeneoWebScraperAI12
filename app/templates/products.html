@@ -1,3 +1,18 @@
 {%extends 'base.html' %} {% block content %}
 <p>This is products file.</p>
-{% for product in products %} {% endfor %} {% endblock %}
+<div class="Cards_container">
+  {% for product in products %}
+
+  <div class="Card" style="width: 20%">
+    <div class="">{{product.product_name}}</div>
+    <div class="">
+      <p class="">Stats</p>
+      {{product.average_scorer*5}} score for {{product.opinions_count}} opinions
+    </div>
+    <div class="Donwload_buttons">
+      <a type="button" href="/product/{{product.product_id}}">Product page</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

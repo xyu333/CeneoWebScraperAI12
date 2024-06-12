@@ -1,0 +1,41 @@
+[
+    {
+        "opinion_id": "2129195",
+        "author": "Użytkownik Ceneo",
+        "recomendation": true,
+        "stars": 1.0,
+        "content": "5.0/5",
+        "pros": [],
+        "cons": [],
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2013-06-30 22:00:16",
+        "purchase_date": null
+    },
+    {
+        "opinion_id": "300843",
+        "author": "Użytkownik Ceneo",
+        "recomendation": false,
+        "stars": 0.2,
+        "content": "Tonsil has always been synonymous with luxury in the audio world for me, so when I finally could afford to buy speakers many years ago, the choice was obvious (of course, significantly limited by my budget). \rAs a young boy, I was looking for loudspeakers that would be able to rock a house party. And as such, they work great, and are much more subtle than the Altus.\rWell, with age, expectations from equipment change and we would like to have something more. And it's not so fun here.\rThe bass is good as long as we drive the speakers hard, although the neighbors don't have to like it. Unfortunately, it does not have this pleasant depth and warmth. The upper range does not exist at all... The only argument in defense of Soundfinders is the affordable price and lack of funds for better equipment, but if you don't have what you like...",
+        "pros": [],
+        "cons": [],
+        "helpful": 0,
+        "unhelpful": 1,
+        "publish_date": "2009-03-05 22:41:40",
+        "purchase_date": null
+    },
+    {
+        "opinion_id": "1584710",
+        "author": "Użytkownik Ceneo",
+        "recomendation": false,
+        "stars": 0.4,
+        "content": "The presented speakers are a poor product. While the power is quite sufficient, I have reservations about the quality. While the high tones are sufficient, the low tones are clearly lacking. To sum up, I do not recommend these speakers.",
+        "pros": [],
+        "cons": [],
+        "helpful": 0,
+        "unhelpful": 3,
+        "publish_date": "2010-01-31 17:27:57",
+        "purchase_date": null
+    }
+]
