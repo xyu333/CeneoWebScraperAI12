@@ -45,7 +45,7 @@ selectors = {
 
 transformation = {
     'recomendation':lambda r: True if r == 'Polecam' else False if r == "Nie polecam" else None,
-    'stars': score,
+    'stars': lambda score: float(score.split("/")[0].replace(",", ".")) / float(score.split("/")[1]),
     'helpful': int,
     'unhelpful': int,
     'content': translate,
